@@ -35,7 +35,6 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <h1>This is working</h1>
           <Switch>
             <Route path="/login">
               {localStorage.token ? <Redirect to="/" /> : <Login />}
