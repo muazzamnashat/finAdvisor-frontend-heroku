@@ -1,6 +1,6 @@
 import { fetchTotalSpend, fetchTotalIncome } from "./transactionsSummary";
 // const ROOT_URL = "http://localhost:3000/api/v1";
-const ROOT_URL = "https://finadvisorbackend.herokuapp.com/api/v1";
+const ROOT_URL = "https://protected-citadel-71435.herokuapp.com/api/v1";
 export function fetchTransactions() {
   return (dispatch) => {
     dispatch({ type: "START_ADDING_TRANSACTIONS_REQUEST" });
