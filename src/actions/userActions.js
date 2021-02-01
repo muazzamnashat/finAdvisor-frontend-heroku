@@ -2,7 +2,8 @@ import { fetchTransactions } from "./fetchTransactions";
 import { fetchCategories } from "./fetchCategories";
 import { fetchTotalSpend, fetchTotalIncome } from "./transactionsSummary";
 
-const ROOT_URL = "http://localhost:3000/api/v1";
+// const ROOT_URL = "http://localhost:3000/api/v1";
+const ROOT_URL = "https://finadvisorbackend.herokuapp.com/";
 
 export function signUp(data) {
   return (dispatch) => {
