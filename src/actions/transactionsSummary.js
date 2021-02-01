@@ -1,5 +1,5 @@
 // const ROOT_URL = "http://localhost:3000/api/v1";
-const ROOT_URL = "https://finadvisorbackend.herokuapp.com/";
+const ROOT_URL = "https://finadvisorbackend.herokuapp.com/api/v1";
 const months = [
   "January",
   "February",
